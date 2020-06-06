@@ -1,4 +1,4 @@
-![logo](_media/icon.svg)
+![logo](_media/icon.png)
 
 # docsify <small>1.3.3</small>
 
@@ -9,5 +9,5 @@
 - Not build static html files
 
 
-[GitHub](https://github.com/QingWei-Li/docsify/)
+[GitHub](https://waet.github.io/docs/)
 [Get Started](#quick-start)
