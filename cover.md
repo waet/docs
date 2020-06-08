@@ -5,7 +5,7 @@
 > 一个神奇的文档网站。
 
 [GitHub](https://waet.github.io/docs/)
-[Get Started](# Quick start)
+[Get Started](#quick-start)
 
 <!-- 背景图片 -->
 
