@@ -1,7 +1,8 @@
 # 导航栏
 
-* 数据源
-```javascript
+* 模板
+```html
+    <!-- js/components/header/index.html -->
     <div>
         <a v-for="(info,index) in obj" :key="index" :href="info.url" :class="{'bg_gold_line':active==info.sn}" @click="active=info.sn">{{info.name}}</a>
         <span v-show="loginMessage.empInfo.isAdmin==1" class="inline-block entry_mange bg_gold_line pointer white" @click="guanli">
@@ -10,8 +11,9 @@
     </div>
 ```
 * 数据源
-```javascript
 
+```html
+    <!-- js/components/header/index.html -->
     obj:{
         'M_home':{
             name:this.$t('A003'),//'首页',

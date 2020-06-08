@@ -4,8 +4,8 @@
 
 > 一个神奇的文档网站。
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#README)
+[GitHub](https://waet.github.io/docs/)
+[Get Started](# Quick start)
 
 <!-- 背景图片 -->
 
