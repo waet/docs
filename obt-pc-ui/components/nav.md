@@ -3,6 +3,7 @@
 * 模板
 ```html
     <!-- js/components/header/index.html -->
+
     <div>
         <a v-for="(info,index) in obj" :key="index" :href="info.url" :class="{'bg_gold_line':active==info.sn}" @click="active=info.sn">{{info.name}}</a>
         <span v-show="loginMessage.empInfo.isAdmin==1" class="inline-block entry_mange bg_gold_line pointer white" @click="guanli">
@@ -12,14 +13,15 @@
 ```
 * 数据源
 
-```html
-    <!-- js/components/header/index.html -->
+```javascript
+    // js/components/header/index.html 
+
     obj:{
         'M_home':{
             name:this.$t('A003'),//'首页',
             url:'/corpConfig/qhhk/template/view/index1.html?enum=1&sel=0',
             show:true,
-            sn:'0'
+            sn:'0' //顺序号
         },
         'M_10901':{
             name:this.$t('A017'),//国内机票

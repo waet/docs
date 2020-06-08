@@ -20,7 +20,7 @@
         - [表格](oss-pc-ui/ui/Tabel.md)
     - [其他](oss-pc-ui/other/)
         - [导出（Export）报表](oss-pc-ui/other/Export.md)
-        - [Lodop实现web套打](oss-pc-ui/other/lodop.md)
+        - [Lodop实现web套打](oss-pc-ui/other/Lodop.md)
 
 - h5-ui
     - [组件](h5-ui/components/)
