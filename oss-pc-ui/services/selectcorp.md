@@ -21,7 +21,8 @@
     - `travelAppOpenInit function(size, {}){}`: 企业申请单
 
 ```javascript
-    //services/corpService
+    //services/corpService.js
+    //services/selectcorp.js
 
     app.controller('bookTicket', ['$scope',' $modal', 'corpService',
         function ($scope, $modal, corpService) {

@@ -20,9 +20,14 @@
         - [表格](oss-pc-ui/ui/Tabel.md)
     - 指令
         - [差旅段](oss-pc-ui/directive/travelInfo.md)
+        - [配送段](oss-pc-ui/directive/distribution.md)
     - 服务
-        - [企业信息](oss-pc-ui/services/corpService.md)
-        - [支付](oss-pc-ui/ui/pay.md)
+        - [企业信息](oss-pc-ui/services/selectcorp.md)
+        - [支付](oss-pc-ui/services/pay.md)
+        - [邮箱](oss-pc-ui/services/email.md)
+        - [短信](oss-pc-ui/services/sms.md)
+        - [异动日志](oss-pc-ui/services/flipListLog.md)
+        - [签注](oss-pc-ui/services/flipNoteList.md)
 
     - 其他
         - [导出（Export）报表](oss-pc-ui/other/Export.md)
@@ -32,5 +37,5 @@
     - 组件
         - [城市](h5-ui/components/city.md)
         - [日历](h5-ui/components/date.md)
-    - UI
+    - [UI](h5-ui/ui/readme.md)
     - [Vue 项目开发手册](h5-ui/vue.md)
