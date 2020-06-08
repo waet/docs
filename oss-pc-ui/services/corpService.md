@@ -1,4 +1,6 @@
-## 和企业相关的控件
+## 企业相关的控件
+
+#### 查询预订 头部组件
 
 - 参数
     - `selectCorp`: 企业操作对象
@@ -34,8 +36,11 @@
                 zcGnjp = cache.zcGnjp;
                 commonService.sessionset('company', cache);
             }
-            $scope.selectCorp.cleanCorp = function () {//清除企业数据
-
+            $scope.selectCorp.cleanCorp = function () {//清除企业数据回调
+                $scope.requesting.corpId = "";
+                $scope.bookerlist = "";
+                $scope.booker = "";
+                $scope.tvRqstNam = "";
             }
             //选择预订人 回调
             $scope.selectCorp.setBooker = function (resp) {

@@ -1,7 +1,7 @@
 # 城市
 
 * 调用
-- init function 参数：
+    - 参数：
     - `useTeml`: "", //使用的模板
     - `useLength`: "2", //当input框中 大于指定字符之后，出现渐进检索  2|1
     - `changeOnly`: false, //是否只容许选择，不能手录入
