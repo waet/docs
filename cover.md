@@ -4,7 +4,7 @@
 
 > 一个神奇的文档网站。
 
-[GitHub](https://waet.github.io/docs/)
+[GitHub](https://github.com/waet/docs/)
 [Get Started](README#ldkj)
 
 <!-- 背景图片 -->
