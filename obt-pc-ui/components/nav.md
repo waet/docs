@@ -39,3 +39,31 @@
     }
 
 ```
+
+* 用法：
+
+```html
+    <body>
+        <com-header></com-header>
+        ...
+    </body>
+```
+
+```javascript
+
+    var comHeader= require("/corpConfig/qhhk/js/components/header/index.js");
+
+    var app=new Vue({
+        name:'app',
+        el: '#app',
+        components:{
+            'comHeader':comHeader,
+        },
+        data: function (){
+            return {
+
+            }
+        }
+    })
+
+```
