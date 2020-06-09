@@ -7,7 +7,7 @@
         - [菜单栏](obt-pc-ui/components/nav.md)
         - [日历](obt-pc-ui/components/date.md)
     - UI
-        - [输入框](oss-pc-ui/ui/Input.md)
+        - [输入框](obt-pc-ui/ui/Input.md)
 
 - oss-pc-ui
     - 组件
