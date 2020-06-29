@@ -37,6 +37,8 @@
     - `.center` `.left` `.right` 行内元素对齐
     - `.table-striped` 斑马纹表格（奇数行灰色背景色）
     - `.show-ellipsis` 显示省略号
+    - `.pointer` 悬浮手指
+    - `.blueunLin` 蓝色下划线
 
 - 常用过滤器：
     - `tofloat2` 保留2位小数
@@ -44,6 +46,21 @@
 
 - 常用指令：
     - `high-lignt` tr选中高亮 绑定该条数据的 `trChecked` 属性
+
+
+
+```html
+    状态颜色
+    <span ng-show="info.changeStatus==0"  style="color:#323232 ">已申请</span>
+    <span ng-show="info.changeStatus==1"  style="color:#ff9600 ">已调度</span>
+    <span ng-show="info.changeStatus==2"  style="color:#19a423 ">已复核</span>
+    <span ng-show="info.changeStatus==3"  style="color:#2682e9 ">已完成</span>
+    <span ng-show="info.changeStatus==4"  style="color:#19a423 ">改签待完成</span>
+    <span ng-show="info.changeStatus==5"  style="color:#19a423 ">已取消</span>
+    <span ng-show="info.changeStatus==6"  style="color:#19a423 ">改签中</span>
+    <span ng-show="info.changeStatus==7"  style="color:#2682e9 ">已改签</span>
+```
+
 
 ## 排序
 对表格进行排序，可快速查找或对比数据。
