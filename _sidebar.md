@@ -34,6 +34,7 @@
         - [Lodop实现web套打](oss-pc-ui/other/Lodop.md)
 
 - h5-ui
+    - [安装配置](h5-ui/config.md)
     - 组件
         - [城市](h5-ui/components/city.md)
         - [日历](h5-ui/components/date.md)
