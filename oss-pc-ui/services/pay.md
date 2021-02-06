@@ -7,6 +7,11 @@
         * type : `String`
 
 ```javascript
+    路由引入
+    'js/utils/compute.js',
+    'js/services/qrCode/index.js',
+    'js/services/qrCode/qrCode.js',
+    'js/services/payment.js',
 
     app.controller('bookTicket', ['$scope',' $modal', 'pay',
         function ($scope, $modal, pay) {

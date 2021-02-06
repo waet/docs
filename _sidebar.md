@@ -24,6 +24,7 @@
     - 服务
         - [企业信息](oss-pc-ui/services/selectcorp.md)
         - [支付](oss-pc-ui/services/pay.md)
+        - [调度](oss-pc-ui/services/dispatch.md)
         - [邮箱](oss-pc-ui/services/email.md)
         - [短信](oss-pc-ui/services/sms.md)
         - [异动日志](oss-pc-ui/services/flipListLog.md)

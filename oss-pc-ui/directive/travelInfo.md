@@ -9,6 +9,11 @@
     - `order-type`: 订单类型
         * type : `String`
 
+```JavaScript
+    路由引入
+    'js/directives/travelInfo/index.js',
+    'js/services/violate/violateList.js',
+```
 ```html
     <travel-info ng-cloak ng-if="directiveData" data="directiveData" cplx="cplx" order-type="orderType"></travel-info>
 ```
