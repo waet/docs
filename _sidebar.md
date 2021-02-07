@@ -10,6 +10,7 @@
         - [输入框](obt-pc-ui/ui/Input.md)
 
 - oss-pc-ui
+    - [配置](oss-pc-ui/config.md)
     - 组件
         - [城市](oss-pc-ui/components/city.md)
     - UI
