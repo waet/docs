@@ -1,6 +1,9 @@
 
 - [前言](README.md)
 
+- 规范
+    - [建设规范](rules/index.md)
+    - [规范参考](rules/url.md)
 - obt-pc-ui
     - 组件
         - [城市](obt-pc-ui/components/city.md)
