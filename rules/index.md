@@ -32,7 +32,18 @@ css
     1、单独一行：// 与注释文字之间保留一个空格
     2、在代码后面注释： //与代码有一个空格
 多行注释
-    /** * @param grid {Ext,Grid,Panel} 需要合 * 并的Grid,合并Grid的行 - * @param cols {Array} 需要合并列的 * Index值，从0开始计数 * @param isAllSome {Boolean} 是否两个 * tr完全一样才能合并true：完全一样， * false：默认 * @return volid * @author * @example */ @param 参数名｛参数类型｝描述信息 @return {返回类型} 描述信息 @author 作者信息 [附属信息：日期，邮箱] @version XX XX XX @example 示例代码
+    /** 
+    * @param grid {Ext,Grid,Panel} 需要合 
+    * 并的Grid,合并Grid的行 - 
+    * @param cols {Array} 需要合并列的 
+    * Index值，从0开始计数 
+    * @param isAllSome {Boolean} 是否两个 
+    * tr完全一样才能合并true：完全一样， 
+    * false：默认
+    * @return volid 
+    * @author 
+    * @example 
+    */ @param 参数名｛参数类型｝描述信息 @return {返回类型} 描述信息 @author 作者信息 [附属信息：日期，邮箱] @version XX XX XX @example 示例代码
 
 js
 变量命名规范
@@ -46,7 +57,19 @@ js
     2、构造函数使用大驼峰式 例：StudentInfo, UserInfo
 类的成员规范
     1、公共属性和方法：同变量命名方式 -私有属性和方法：前缀为下划线_后面跟公共属性和方法一样的命名方式
-    function Student(name) { var _name = name//私有成员 //公共方法 this.getName = function() { return _name } this.setName = function() { _name = value } } var st = new Student('tom'); st.setName('jerry); console.log(st.getName())
+    function Student(name) { 
+        var theName = name//私有成员 
+        //公共方法 
+        this.getName = function() {
+            return theName 
+        }
+        this.setName = function() {
+            theName = value 
+        }
+    } 
+    var st = new Student('tom'); 
+    st.setName('jerry); 
+    console.log(st.getName())
 脚本规范
     1、尽量避免使用存在兼容性或者消耗资源的方法或属性。比如 eval()、innerText。
     2、URL传参数值为中文字符（未明确字符）需要进行编码。
