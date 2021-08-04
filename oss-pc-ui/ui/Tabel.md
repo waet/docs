@@ -11,18 +11,18 @@
     .show-ellipsis 显示省略号
     
 常用过滤器：
-    tofloat2:保留2位小数
+    fixed2:保留2位小数
     toNum:加 %（0.5 => 50%）
 -->
-<table class="table table-striped table-bordered table-condensed center table-hover smallth" ng-show="list.length > 0">
+<table class="custom_table_ table-striped" ng-show="list.length > 0">
 	<thead>
-		<tr class="nopalr">
+		<tr>
 		<th>序号</th>
 		<!-- something th -->
 		</tr>
 	</thead>
 	<tbody>
-		<tr ng-repeat="info in list" class="nopalr">
+		<tr ng-repeat="info in list" high-lignt ng-model="info" ng-class="{'tr-background':info.trChecked}">
 			<td>{{$index+1}}</td>
 		    <!-- something td -->
             <td>
@@ -41,7 +41,7 @@
     - `.blueunLin` 蓝色下划线
 
 - 常用过滤器：
-    - `tofloat2` 保留2位小数
+    - `fixed2` 保留2位小数
     - `toNum` 加 %（0.5 => 50%）
 
 - 常用指令：
@@ -65,9 +65,9 @@
 ## 排序
 对表格进行排序，可快速查找或对比数据。
 ```html
-<table class="table table-striped table-bordered table-condensed center table-hover smallth" ng-show="list.length > 0">
+<table class="custom_table_ table-striped" ng-show="list.length > 0">
     <thead>
-    	<tr class="nopalr">
+    	<tr >
         	<th>
                 <!-- 数字排序 -->
                 <i class="fa pointer" 
@@ -92,7 +92,7 @@
     	</tr>
     </thead>
     <tbody>
-    	<tr ng-repeat="info in list" class="nopalr">
+    	<tr ng-repeat="info in list">
     		<td>{{ info.price }}</td>
     	    <!-- something td -->
         </tr>
@@ -120,15 +120,15 @@ $scope.pHsort = function(col) {
 ## 表尾合计行
 若表格展示的是各类数字，可以在表尾显示各列的合计。
 ```html
-<table class="table table-striped table-bordered table-condensed center table-hover smallth" ng-show="list.length > 0">
+<table class="custom_table_ table-striped" ng-show="list.length > 0">
 	<thead>
-		<tr class="nopalr">
+		<tr>
 		<th>序号</th>
 		<!-- something -->
 		</tr>
 	</thead>
 	<tbody>
-		<tr ng-repeat="info in list" class="nopalr">
+		<tr ng-repeat="info in list">
 			<td>{{$index+1}}</td>
 		    <!-- something -->
             <td></td>
@@ -203,26 +203,9 @@ $scope.pHsort = function(col) {
 ## 固定列
 横向内容过多时，可选择固定列。
 
-# 分页
-当数据量过多时，使用分页分解数据。
-## 基础用法
-```html
-<pagination class="pagination-sm-s m-t-none m-b" 
-    boundary-links="true" 
-    rotate="false"
-    total-items="vm.totalElements" // 总共多少条数据
-    ng-change="vm.pageChanged()" // 点击页面跳转
-    max-size="10" // 展示多少页码
-    ng-model="vm.pageNum" // 当前页
-    items-per-page="vm.count" // 每页多少条数据
-    first-text="首页"
-    last-text="最后一页"
-    next-text="下一页"
-    previous-text="上一页">
-</pagination>
-```
 
-## OSS编写常用写法
+
+## OSS编写常用写法  ( 已废弃 )
 配合下拉框设置展示数目
 ```html
 <!--S 分页-->

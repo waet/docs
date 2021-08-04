@@ -39,3 +39,12 @@ var n = window.location.hostname
 var nginxPath = '//sfile' + n.substr(n.indexOf('.'));
 
 ```
+
+### 文件压缩  
+
+​	只限于  config.router.js  和 interface.js
+
+1. 压缩命令配置：package.json>scripts>compress
+2. 安装uglify压缩 cnpm install uglify-js -g
+3. 执行压缩 npm run compress
+
