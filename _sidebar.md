@@ -29,7 +29,7 @@
         
         - [选择器](oss-pc-ui/ui/Select.md)
         
-        - [表格](oss-pc-ui/ui/Tabel.md)      
+        - [表格](oss-pc-ui/ui/Table.md)      
         
         - [分页](oss-pc-ui/ui/pagination.md)
         
@@ -38,6 +38,7 @@
         - [配送段](oss-pc-ui/directive/distribution.md)
         - [备注段](oss-pc-ui/directive/remarks.md)
     - 服务
+        - [Modal 模态框](oss-pc-ui/services/Modal.md)
         - [企业信息](oss-pc-ui/services/selectcorp.md)
         - [支付](oss-pc-ui/services/pay.md)
         - [调度](oss-pc-ui/services/dispatch.md)
