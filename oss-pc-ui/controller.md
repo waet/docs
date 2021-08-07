@@ -40,3 +40,15 @@
         <button ng-click="obj.search()">查询</button>
     </div>
 ```
+
+#### 页面传值
+
+```js
+//打开新页面 
+window.open('#/payLogOrderDetail?id='+id,"_blank","width=1120px,height=560px,left=200px,top=70px,scrollbars=1")
+ //当前页面路由跳转  {id:'123'} 传参
+ $state.go('app.train.offlineList'，{id:'123'})
+ //获取路由参数
+ $scope.data = $location.search()||{}
+```
+

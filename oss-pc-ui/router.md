@@ -103,7 +103,7 @@
         $state.go('app.train.offlineList'，{id:'123'})
         //打开一个新窗口 单独显示这个页面 固定写法
         window.open('#/customExport', "_blank", "width=1250px,height=640px,left=200px,top=70px,scrollbars=1")
-    	//获取参数
+    	//获取路由参数
     	$scope.data = $location.search()||{}
     
     }])
