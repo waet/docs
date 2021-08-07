@@ -8,10 +8,12 @@
 
 ```javascript
 var app = angular.module('myApp', []);
-app.controller('myCtrl', function($scope) {
-
-      //S 日期控件
-      var start = {
+app.controller('myCtrl',[ '$scope','commonService',function($scope,commonService) {
+    $scope.query={
+        dateStart:commonService.formatDate().date//当天
+    }
+    //S 日期控件
+    var start = {
         isinitVal: true,
         format: 'YYYY-MM-DD',
         festival: true,
@@ -19,9 +21,9 @@ app.controller('myCtrl', function($scope) {
         choosefun: function(elem, val, date) {
             elem.val(date).trigger('change');
         }
-      }
-      $('.inpstart').jeDate(start);
+    }
+    $('.inpstart').jeDate(start);
   
-});
+}]);
 ```
 
