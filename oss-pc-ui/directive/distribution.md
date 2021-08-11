@@ -6,9 +6,10 @@
     - `order-type`: 订单类型
         * type : `String`
 ```JavaScript
-    路由引入
-    'js/directives/distribution/distribution.js',
+路由引入
+'js/directives/distribution/distribution.js',
 ```
 ```html
-    <distribution ng-cloak ng-if="directiveData" data="directiveData" order-type="orderType"></distribution>
+<distribution ng-cloak ng-if="directiveData" data="directiveData" order-type="orderType"></distribution>
 ```
+

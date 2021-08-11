@@ -20,7 +20,7 @@
 
 #### 查询条件
 
-![image-20210803114223001](D:\svn\BaiduNetdiskWorkspace\LDKJdocs\oss-pc-ui\img\image-20210803114223001.png)
+![image-20210803114223001](oss-pc-ui/img/image-20210803114223001.png)
 
 ```html
       <div class="select-group" style="width: 1160px; min-height: 48px;">
@@ -69,7 +69,8 @@
 
 #### 详情页面
 
-![image-20210803114321572](D:\svn\BaiduNetdiskWorkspace\LDKJdocs\oss-pc-ui\img\image-20210803114321572.png)
+![image-20210803114321572](oss-pc-ui/img/image-20210803114321572.png)
+
 
 ```html
   	<div class="col">
