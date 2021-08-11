@@ -12,3 +12,4 @@
 ```html
     <distribution ng-cloak ng-if="directiveData" data="directiveData" order-type="orderType"></distribution>
 ```
+

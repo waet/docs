@@ -8,8 +8,7 @@
     路由引入
     'js/services/dispatch.js',
 
-    app.controller('bookTicket', ['$scope',' $modal', 'dispatch',
-        function ($scope, $modal, dispatch) {
+    app.controller('bookTicket', ['$scope',' $modal', 'dispatch',function ($scope, $modal, dispatch) {
             // 调度前验证
              $conn.getConn('outTkCtrl.dispatchPreCheck')({
                 "orderId":info.id,
@@ -41,7 +40,8 @@
                     ],
                     defaultDept1:{
                         name:'出票部门',
-                        isDisabled:false
+                        isDisabled:false,//是否禁用
+                        isShow:true,//是否显示
                     },
                     defaultDept2:{
                         name:'配送办理部门',

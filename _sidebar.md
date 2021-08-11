@@ -35,6 +35,7 @@
     - [差旅段](oss-pc-ui/directive/travelInfo.md)
     - [配送段](oss-pc-ui/directive/distribution.md)
     - [备注段](oss-pc-ui/directive/remarks.md)
+    - [邮寄段](oss-pc-ui/directive/express.md)
 - 服务
     - [Modal 模态框](oss-pc-ui/services/Modal.md)
     - [企业信息](oss-pc-ui/services/selectcorp.md)
@@ -48,6 +49,7 @@
     - 其他
         - [导出（Export）报表](oss-pc-ui/other/Export.md)
         - [Lodop实现web套打](oss-pc-ui/other/Lodop.md)
+        - [ICON图标i](oss-pc-ui/other/icon.md)
 
 - h5-ui
     - [安装配置](h5-ui/config.md)
