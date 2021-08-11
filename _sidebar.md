@@ -50,6 +50,7 @@
         - [导出（Export）报表](oss-pc-ui/other/Export.md)
         - [Lodop实现web套打](oss-pc-ui/other/Lodop.md)
         - [ICON图标](oss-pc-ui/other/icon.md)
+        - [公共方法](oss-pc-ui/other/utils.md)
 
 - h5-ui
     - [安装配置](h5-ui/config.md)

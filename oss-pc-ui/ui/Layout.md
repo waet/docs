@@ -73,51 +73,31 @@
 
 
 ```html
-  	<div class="col">
-      	<div class="tkDetlhead">
-              基本信息&nbsp;&nbsp;
-              <span class="tkddly">[{{details.baseInfoBean.operateFrom|operateFrom}}]</span>
-              &nbsp;&nbsp;<span  ng-show="details.baseInfoBean.khlx==2">分销</span>
-              <span ng-show="details.baseInfoBean.khlx==3">政企GP</span>
-              <span ng-show="details.baseInfoBean.khlx==4">个人</span>&nbsp;&nbsp;
-            </div>
-            <div class="tkDetlbody">
-              <!--第一行--> 
-              <div class="tkrefundDet">
-                <span>充值订单号:</span>
-                <label>{{details.baseInfoBean.orderNo}}
-                </label>
-                <span>充值金额:</span>
-                <label>{{details.baseInfoBean.payAmount}}
-                </label>
-                <span>客户名称:</span>
-                <label>{{details.baseInfoBean.corpName}}</label>
-                <span>企业预订人:</span>
-                <label>{{details.baseInfoBean.applyUserName }}</label>
-              </div>
-
-              <div class="tkrefundDet">
-                <span>创建人:</span>
-                <label>{{details.baseInfoBean.creator }}
-                </label>
-                <span>创建时间:</span>
-                <label>
-                    {{details.baseInfoBean.createdate }}
-                </label>
-                <span>办理人:</span>
-                <label>
-                  <span>{{details.baseInfoBean.handler }}</span>
-                </label>
-                <span>办理时间:</span>
-                <label>
-                    {{details.baseInfoBean.handleDate  }}
-                </label>
-              </div>
-              <div class="tkrefundDet">
-                <span>充值备注:</span>
-                  <p style="color: #F05F55;display: inline-block;">{{details.baseInfoBean.bzbz }}</p>
-              </div>
-            </div>
-          </div>
+<div class="col">
+    <div class="tkDetlhead">
+        基本信息
+        <span class="tkddly">[{{details.baseInfoBean.operateFrom|operateFrom}}]</span>
+    </div>
+    <div class="tkDetlbody">
+        <!--第一行--> 
+        <div class="tkrefundDet">
+            <span>充值订单号:</span>
+            <label>{{details.baseInfoBean.orderNo}}
+            </label>
+            <span>充值金额:</span>
+            <label>{{details.baseInfoBean.payAmount}}
+            </label>
+            <span>客户名称:</span>
+            <label>{{details.baseInfoBean.corpName}}</label>
+            <span>企业预订人:</span>
+            <label>{{details.baseInfoBean.applyUserName }}</label>
+        </div>
+        <!--第二行--> 
+        <div class="tkrefundDet">
+            <span>充值备注:</span>
+            <p style="color: #F05F55;display: inline-block;">{{details.baseInfoBean.bzbz }}</p>
+        </div>
+    </div>
+</div>
 ```
 
